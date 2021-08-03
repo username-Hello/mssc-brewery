@@ -1,4 +1,4 @@
-package spring.msscource.msscbrewery.web.service;
+package spring.msscource.msscbrewery.service;
 
 import spring.msscource.msscbrewery.web.model.BeerDto;
 

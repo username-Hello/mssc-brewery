@@ -1,10 +1,12 @@
-package spring.msscource.msscbrewery.web.service.impl;
+package spring.msscource.msscbrewery.service.impl;
 
+import org.springframework.stereotype.Service;
 import spring.msscource.msscbrewery.web.model.BeerDto;
-import spring.msscource.msscbrewery.web.service.BeerService;
+import spring.msscource.msscbrewery.service.BeerService;
 
 import java.util.UUID;
 
+@Service
 public class BeerServiceImpl implements BeerService {
 
     @Override
