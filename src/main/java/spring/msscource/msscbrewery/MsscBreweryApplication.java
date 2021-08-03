@@ -1,4 +1,4 @@
-package spring.msscource.msscbrewery.msscbrewery;
+package spring.msscource.msscbrewery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
