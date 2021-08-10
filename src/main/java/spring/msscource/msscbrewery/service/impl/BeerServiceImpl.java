@@ -19,10 +19,20 @@ public class BeerServiceImpl implements BeerService {
     }
 
     @Override
-    public BeerDto createBeer() {
+    public BeerDto saveBeer(BeerDto beerDto) {
         return BeerDto.builder()
                 .id(UUID.randomUUID())
                 .name("Purple man")
                 .build();
+    }
+
+    @Override
+    public void updateBeer(UUID beerId, BeerDto beerDto) {
+        //todo create realization
+    }
+
+    @Override
+    public void deleteBeer(UUID beerId) {
+        //todo create realization
     }
 }
