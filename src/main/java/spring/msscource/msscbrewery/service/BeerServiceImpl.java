@@ -1,12 +1,13 @@
-package spring.msscource.msscbrewery.service.impl;
+package spring.msscource.msscbrewery.service;
 
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import spring.msscource.msscbrewery.web.model.BeerDto;
-import spring.msscource.msscbrewery.service.BeerService;
 
 import java.util.UUID;
 
 @Service
+@AllArgsConstructor
 public class BeerServiceImpl implements BeerService {
 
     @Override
