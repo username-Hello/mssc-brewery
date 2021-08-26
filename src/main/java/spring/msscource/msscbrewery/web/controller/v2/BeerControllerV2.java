@@ -1,4 +1,4 @@
-package spring.msscource.msscbrewery.web.controller.v1;
+package spring.msscource.msscbrewery.web.controller.v2;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
