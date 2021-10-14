@@ -4,7 +4,7 @@ import org.mapstruct.Mapper;
 import spring.msscource.msscbrewery.domain.Beer;
 import spring.msscource.msscbrewery.web.model.BeerDto;
 
-@Mapper
+@Mapper(uses = DateMapper.class)
 public interface BeerMapper {
 
     BeerDto beerToBeerDto(Beer beer);
