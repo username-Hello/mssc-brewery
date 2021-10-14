@@ -58,15 +58,16 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>RELEASE</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -75,7 +76,7 @@
 					<annotationProcessorPaths>
 						<path>
 							<groupId>org.mapstruct</groupId>
-							<artifactId>mapstruct</artifactId>
+							<artifactId>mapstruct-processor</artifactId>
 							<version>${mapstruct.version}</version>
 						</path>
 						<path>
@@ -85,7 +86,7 @@
 						</path>
 					</annotationProcessorPaths>
 					<compilerArgs>
-						<compilerArg>-Amapsruct.defaultComponentModel=spring</compilerArg>
+						<compilerArg>-Amapstruct.defaultComponentModel=spring</compilerArg>
 					</compilerArgs>
 				</configuration>
 			</plugin>
